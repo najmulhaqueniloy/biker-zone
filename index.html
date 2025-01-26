@@ -42,9 +42,9 @@
 </head >
 <body class="font-poppins container mx-auto">
   <!-- Header Section -->
-    <header class="max-w-[90%] mx-auto my-5">
+    <header class="w-11/12 mx-auto">
       <!-- Navbar -->
-      <nav>
+      <nav class="my-4">
         <div class="navbar bg-base-100 font-medium">
           <div class="flex-1">
             <div class="dropdown">
@@ -94,7 +94,7 @@
           <div class="w-11/12 md:w-4/5 mx-auto py-20 flex flex-col md:flex-row justify-center items-center gap-3">
             <!-- Text content -->
             <div class="space-y-3">
-              <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
               <p class="font-light opacity-80 ">Amet minim mollit non deserunt ullamco <br> 
                 est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
               <button class="btn bg-primary-color hover:bg-orange-400 text-white font-medium">Purchase</button>
@@ -115,7 +115,7 @@
           <div class="w-11/12 md:w-4/5 mx-auto py-20 flex flex-col md:flex-row justify-center items-center gap-3">
             <!-- Text content -->
             <div class="space-y-3">
-              <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
               <p class="font-light opacity-80 ">Amet minim mollit non deserunt ullamco <br> 
                 est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
               <button class="btn bg-primary-color hover:bg-orange-400 text-white font-medium">Purchase</button>
@@ -136,7 +136,7 @@
           <div class="w-11/12 md:w-4/5 mx-auto py-20 flex flex-col md:flex-row justify-center items-center gap-3">
             <!-- Text content -->
             <div class="space-y-3">
-              <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
               <p class="font-light opacity-80 ">Amet minim mollit non deserunt ullamco <br> 
                 est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
               <button class="btn bg-primary-color hover:bg-orange-400 text-white font-medium">Purchase</button>
@@ -157,7 +157,7 @@
           <div class="w-11/12 md:w-4/5 mx-auto py-20 flex flex-col md:flex-row justify-center items-center gap-3">
             <!-- Text content -->
             <div class="space-y-3">
-              <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+              <h1 class="text-4xl md:text-5xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
               <p class="font-light opacity-80 ">Amet minim mollit non deserunt ullamco <br> 
                 est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
               <button class="btn bg-primary-color hover:bg-orange-400 text-white font-medium">Purchase</button>
@@ -177,8 +177,76 @@
     </header>
 
     <!-- Main section -->
-     <main>
+     <main class="w-11/12 mx-auto">
+      <!-- Featured Bikes Sections -->
+       <section class="my-20">
+        <div class="text-center space-y-2">
+          <h2 class="text-5xl font-semibold">Featured Bikes In This Year</h2>
+          <p class="text-sm text-primary-color">Best bike collection</p>
+          <hr class="border-primary-color w-16 mx-auto">
+        </div>
+        <!-- Featured bikes container -->
+         <div class="mt-12 grid sm:grid-cols-2 md:grid-cols-3 gap-20 justify-center">
+          <img src="assets/images/feature-bike.png" alt="" class="grayscale">
+          <img src="assets/images/feature-bike.png" alt="">
+          <img src="assets/images/feature-bike.png" alt="" class="grayscale">
+         </div>
 
+       </section>
+
+      <!-- Latest News Card Section -->
+       <section>
+          <h2 class="text-5xl font-semibold text-center mb-12">Latest News</h2>
+        <!-- Card Container -->
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-5 justify-center">
+          <!-- Card 1 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="assets/images/latest1.png"
+                alt="Ducati XDIAVEL S-73" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-primary-color btn-outline text-white font-medium">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="assets/images/latest2.png"
+                alt="Ducati XDIAVEL S-73" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Motorcycles & Scooters</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-primary-color btn-outline text-white font-medium">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="assets/images/latest3.png"
+                alt="Ducati XDIAVEL S-73" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">2021 Honda CBR500R</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-primary-color btn-outline text-white font-medium">Read More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+       </section>
      </main>
 </body>
 </html>
