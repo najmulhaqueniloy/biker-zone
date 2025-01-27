@@ -40,9 +40,9 @@
     }
   </script>
 </head >
-<body class="font-poppins max-w-screen-xl mx-auto">
+<body class="font-poppins container mx-auto">
   <!-- Header Section -->
-    <header class="w-11/12 mx-auto">
+    <header class="w-11/12 md:w-4/5 mx-auto">
       <!-- Navbar -->
       <nav class="my-4">
         <div class="navbar bg-base-100 font-medium">
@@ -177,7 +177,7 @@
     </header>
 
     <!-- Main section -->
-     <main class="w-11/12 mx-auto">
+     <main class="w-11/12 md:w-4/5 mx-auto">
       <!-- Featured Bikes Sections -->
        <section class="my-20">
         <div class="text-center space-y-2">
@@ -348,18 +348,20 @@
        </section>
 
       <!-- FAQ section -->
-       <section>
+       <section class="font-inter">
         <h2 class="text-3xl sm:text-4xl font-semibold text-center mb-12">Frequently <span class="text-primary-color">Asked Questions</span></h2>
         <!-- Hero style -->
         <div class="hero">
           <div class="hero-content flex-col md:flex-row gap-16">
             <!-- Image content -->
-              <img
-              src="assets/images/faq.png"
-              class="rounded-lg" />
+              <div class="w-full">
+                <img
+                src="assets/images/faq.png"
+                class="rounded-lg" />
+              </div>
             
             <!-- FAQ Text content -->
-            <div class="join join-vertical space-y-4">
+            <div class="join join-vertical space-y-4 w-full">
               <div class="collapse collapse-arrow join-item border-gray-300 border">
                 <input type="radio" name="my-accordion-4" checked="checked" />
                 <div class="collapse-title text-xl font-medium">What are the most important things I should
@@ -397,6 +399,37 @@
      </main>
 
     <!-- Footer Section -->
+    <footer class="footer font-manrope bg-[#0B0D17] text-white mt-20 pt-14 pb-20">
+      <!-- Footer Container -->
+      <div class="w-11/12 md:w-4/5 mx-auto flex flex-col sm:flex-row justify-between gap-12">
+        <!-- Left content -->
+        <div class="space-y-6">
+          <ul class="flex gap-5">
+            <li><a href="">Download Now</a></li>
+            <li><a href="">License</a></li>
+          </ul>
+          <ul class="grid sm:grid-cols-3 md:grid-cols-6">
+            <li><a href="">About</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+          <p class="text-sm text-gray-300">© 2020 bike. All rights reserved</p>
+        </div>
 
+        <!-- Right content -->
+        <div class="space-y-3">
+          <p class="text-lg font-medium text-gray-300">Get the App</p>
+          <div class="w-1/2">
+            <a href=""><img src="assets/images/ios.png" alt=""></a>
+          </div>
+          <div class="w-1/2">
+            <a href=""><img src="assets/images/android.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
